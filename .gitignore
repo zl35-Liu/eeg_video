@@ -1,0 +1,90 @@
+# 示例 .gitignore 内容（根据您的项目调整）
+
+# 1. 排除特定文件
+#secret_key.txt
+#config.ini
+#*.pem
+*.[hH][dD][fF]5
+*.[bB][iI][nN]
+*.[dD][aA][tT]
+
+# 2. 排除整个目录
+/SEED-DV/
+/Tune-A-Video-main/
+/V1/
+/EEG_preprocessing/data/
+/EEG2Video/models/clip-vit-base-patch32/
+/EEG2Video/models/clip-vit-large-patch14/
+/EEG2Video/checkpoints/
+
+# 3. 排除特定扩展名
+*.npy
+*.pt
+*.pth
+*.csv
+*.bin
+*.log
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.png
+*.txt
+*.md
+
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.obj
+*.lib
+*.class
+*.jar
+*.war
+*.ear
+*.aar
+*.apk
+*.ipa
+*.GIF
+*.JPG
+*.JPEG
+*.PNG
+*.TIF
+*.TIFF
+*.WEBP
+*.MP4
+*.TXT
+*.MD
+*.safetensors
+*.msgpack
+*.crdownload
+*.iml
+*.DS_Store
+*.gitattributes
+*.gitmodules
+*.gitpod.yml
+*.gitpod.dockerfile
+*.gitpod.yml
+*.gitpod.dockerfile
+*.gitpod.yml
+*.gitpod.dockerfile
+*.xml
+*.pyc
+*.
+1
+# 4. 排除敏感文件
+#.env            # 环境变量文件
+#.DS_Store       # macOS 系统文件
+#Thumbs.db       # Windows 缩略图
+
+# 5. 排除 IDE 配置文件
+.idea/          # PyCharm 配置
+.vscode/        # VS Code 配置
